@@ -32,6 +32,5 @@ Build production assets:
 $ deno task build
 ```
 
-This repository uses
-[Deno Deploy and Git integration](https://deno.com/deploy/docs/projects#git-integration),
-where deployment is happening as part of the CI pipeline.
+The output will be in the `dist` directory.
+
