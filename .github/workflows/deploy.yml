@@ -34,5 +34,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "littlesticks-deno-examples"
-          root: "./vite-deno-lit/dist
+          root: ./vite-deno-lit/dist
           entrypoint: https://deno.land/std@0.157.0/http/file_server.ts
