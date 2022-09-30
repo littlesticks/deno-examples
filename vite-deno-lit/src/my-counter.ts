@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, state } from 'lit/decorators.js'
 
-@customElement('my-element')
+@customElement('my-counter')
 export class MyElement extends LitElement {
   static styles = [
     css`
@@ -21,6 +21,10 @@ export class MyElement extends LitElement {
         border-radius: 1rem;
         cursor: pointer;
       }
+      .buttons {
+        display: flex;
+        gap: 1rem;
+      }
     `
   ];
 
@@ -39,7 +43,7 @@ export class MyElement extends LitElement {
   render() {
     return html`
     <p>Clicked: ${this._count}</p>
-    <div>
+    <div class="buttons">
       <button @click=${this._decrement}>-</button>
       <button @click=${this._increment}>+</button>
     </div>
