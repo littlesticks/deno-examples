@@ -34,3 +34,4 @@ $ deno task build
 
 The output will be in the `dist` directory.
 
+Use `example_gh_action.yml` as an example on how to deploy to Deno Deploy with a GitHub Action.
