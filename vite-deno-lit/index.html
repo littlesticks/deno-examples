@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    main {
+      height: 80vh;
+      margin: 0 auto;
+      max-width: 860px;
+      padding: 0 1rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .logos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .logos img {
+      height: 6em;
+      width: auto;
+    }
+    .logos a {
+      text-decoration: none;
+    }
+  </style>
+  <script type="module">
+    import './src/my-element.ts';
+  </script>
+</head>
+<body>
+  <main>
+    <div class="logos">
+      <a href="https://vitejs.dev" target="_blank">
+        <img src="/vite.svg" alt="Vite logo" />
+      </a>
+      <a href="https://deno.land" target="_blank">
+        <img src="/deno.svg" alt="Deno logo" />
+      </a>
+      <a href="https://lit.dev" target="_blank">
+        <img src="/lit.svg" alt="Lit logo" />
+      </a>
+    </div>
+    <h1>Vite + Deno + Lit</h1>
+    <my-element></my-element>
+  </main>
+</body>
+</html>
