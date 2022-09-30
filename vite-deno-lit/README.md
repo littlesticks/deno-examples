@@ -2,7 +2,7 @@
 
 This is an example of Vite and Deno using a Lit component. Inspired by [this repo](https://github.com/bartlomieju/vite-deno-example) using Vite + Deno + Vue.
 
-You can view a demo here: 
+A live demo is running here: https://vite-deno-lit.deno.dev/
 
 ## Notes
 
